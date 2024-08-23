@@ -53,35 +53,75 @@ body {
     font-size: 12px;
 }
 
-
-.right .first,
-.right .third {
-    height: 35vh;
-    background-color: rgba(217, 217, 217, 0.422);
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(246, 243, 243, 0.59);
 }
 
 .first .paragraph {
-    padding: 80px 120px 20px 80px;
+    padding: 80px 80px 20px 80px;
     font-weight: 500;
     font-size: 1.1rem;
 }
 
 .right .second {
-    height: 27vh;
+    background-color: white;
+    height: 32vh;
     padding-top: 10px;
     padding-left: 80px;
+    box-shadow: 3px 3px 5px rgb(220, 219, 219);
 }
 
 .second p {
     font-weight: 500;
     font-size: 1.1rem;
+    margin-top: auto;
 }
 
-.form-div {
-    font-size: 12px;
-    display: grid;
-    gap: 10px;
+label {
+    margin-bottom: 2px;
+}
 
+.inputs {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.inputs-left,
+.inputs-right {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+label {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+input {
+    margin-bottom: 8px;
+    padding: 5px;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 5px;
+    outline: none;
+    width: 200px;
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 2px 2px 5px grey;
+}
+
+/* input:invalid {
+    border: 1px solid red;
+} */
+
+
+.passErrorMsg {
+    font-size: 10px;
+    color: red;
 }
 
 .right .third {
