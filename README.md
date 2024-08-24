@@ -3,7 +3,7 @@
 
 A Signup form based on [Project: Sign-up Form](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form) of [The Odin Project](https://www.theodinproject.com/). <br/>
 
-Live preview [here](). <br/>
+Live preview [here](https://johnedisond.github.io/Sign-up-form/). <br/>
 
 ![SignUp](images/SignUp.png) <br/>
 
